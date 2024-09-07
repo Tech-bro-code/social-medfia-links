@@ -68,13 +68,13 @@ p{
     background-color: hsl(0, 0%, 20%);
 }
 a{
-    display: inline-block;
+    display: block;
     width: 100%;
     font-weight: 700;
     font-size: 14px;
     text-transform: capitalize;
     text-decoration: none;
-    padding: 8px 40px;
+    /* padding: 8px 40px; */
     color: hsl(0, 0%, 100%);
 
 }
@@ -95,7 +95,7 @@ a:active{
 }
 .container .hero{
     display: flex;
-    width: 90%;
+    width:  90%;
 }
 .container .links ul li{
     display: block;
@@ -103,12 +103,15 @@ a:active{
     margin: 15px auto;
     text-align: center;
     border-radius: 5px;
-    width: 95%;
+    width: 200px;
     background-color: hsl(0, 0%, 20%);
 }
 .links ul li:active{
     background-color:  hsl(75, 94%, 57%);
     color:  hsl(0, 0%, 20%);;
+}
+a{
+    font-size: 12px;
 }
 a:active{
     color:  hsl(0, 0%, 20%);
@@ -120,6 +123,15 @@ a:active{
         height: auto;
         width: 100%;
     
+}
+.container .links ul li{
+    display: block;
+    padding: 5px 10px;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 5px;
+    width: 180px;
+    background-color: hsl(0, 0%, 20%);
 }
     
 }

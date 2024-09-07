@@ -60,7 +60,7 @@ p{
 }
 .container .links ul li{
     display: block;
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 15px auto;
     text-align: center;
     border-radius: 5px;
@@ -81,11 +81,11 @@ a{
 .links ul li:active{
     background-color:  hsl(75, 94%, 57%);
     color:  hsl(0, 0%, 20%);;
-    transition: all 1s ease-in-out;
+    transition: all  ease-in-out;
 }
-a:active{
+.links ul li a:active{
     color:  hsl(0, 0%, 20%);
-    transition: all 1s ease-in-out;
+    transition: all ease-in-out;
 }
 @media screen and (max-width: 375px) {
     body .container{
@@ -99,7 +99,7 @@ a:active{
 }
 .container .links ul li{
     display: block;
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 15px auto;
     text-align: center;
     border-radius: 5px;
@@ -110,7 +110,7 @@ a:active{
     background-color:  hsl(75, 94%, 57%);
     color:  hsl(0, 0%, 20%);;
 }
-a{
+.links ul li a{
     font-size: 12px;
 }
 a:active{
@@ -126,12 +126,42 @@ a:active{
 }
 .container .links ul li{
     display: block;
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 15px auto;
     text-align: center;
     border-radius: 5px;
     width: 180px;
     background-color: hsl(0, 0%, 20%);
+}
+.links ul li:active{
+    background-color:  hsl(75, 94%, 57%);
+}
+.links ul li a:active{
+    color:  hsl(0, 0%, 20%);
+   
+}
+}
+@media screen and (max-width: 225px) {
+    body .container{
+        height: auto;
+        width: 100%;
+    
+}
+.container .links ul li{
+    display: block;
+    padding: 10px 40px;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 5px;
+    width: 90%;
+    background-color: hsl(0, 0%, 20%);
+}
+.links ul li:active{
+    background-color:  hsl(75, 94%, 57%);
+}
+.links ul li a:active{
+    color:  hsl(0, 0%, 20%);
+   
 }
     
 }
